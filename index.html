@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Supply and Distribution</title>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="custom.js"></script>
+<!-------------------------------->
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "normalize.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+
+    <!-- header -->
+    <header class = "header fixed-navbar" id = "header">
+           <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <div class="nav-logo">
+        <a href="#">
+          <img src="images/mr_logo-removebg-preview.png" height="70" width="1000">
+        </a>
+      </div>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right  w3-hide-small">
+        <a href="#" class="w3-bar-item w3-button" style="color: goldenrod;"> HOME</a>
+        <a href="#ourservices" class="w3-bar-item w3-button" style="color: goldenrod;">SERVICES</a>
+        <a href="#products" class="w3-bar-item w3-button" style="color: goldenrod;"> PRODUCTS</a>
+        <a href="#pricing" class="w3-bar-item w3-button" style="color: goldenrod;"> PRICING</a>
+        <a href="#contact" class="w3-bar-item w3-button "style="color: goldenrod;"> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block  w3-card w3-animate-left w3-hide-medium w3-hide-large" style="color: #fff; background: #daa520;"  id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="#ourservices" onclick="w3_close()" class="w3-bar-item w3-button">SERVICE</a>
+    <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+        
+
+        <div class = "banner">
+            <div class = "container">
+                <div class = "banner-text">
+                    <h1>We provide our people with modern security.</h1>
+                    <p class = "text">We are a small business that thrives and aims on ensuring people are safe in their homes and that their homes are well protected and secured. Our<strong> purpose </strong> is to give security and safety to our people.We aim to reduce crime in different spheres and aspects.</p>
+                    
+                </div>
+
+                <div class = "banner-image">
+                    <img src = "images/home.png" alt = "banner image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+     <!-- services section -->
+     <section id = "ourservices" class = "py-5">
+        <div class = "section-heading">
+            <div class = "container">
+                <span class = "heading-lg">Our Sevices</span>
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class = "testimonials-grid">
+                <div class = "testimonials-item">
+                    <div class = "image">
+                        <img src = "images/cctv-camera-removebg-preview.png" alt = "client image">
+                    </div>
+                    <h2>CCTV Installation</h2>
+                    <p class = "text"> When it comes to the security of your property, whether it's your primary residence or your business. CCTV is an essential part that not only provides you with surveillance capabilities, but  also informs unwanted guests about the security system you have  and will keep criminals out. Also more likely to be arrested by the police or security companies if a crime has been committed. CCTV will also be a good source of evidence when processing insurance claims and in some cases, can even reduce your insurance premiums.</p>
+                    
+                </div>
+
+                <div class = "testimonials-item">
+                    <div class = "image">
+                        <img src = "images/gate-removebg-preview.png" alt = "client image">
+                    </div>
+                    <h2>Gate Motor Installation</h2>
+                    <p class = "text">Gate motor installation is our specialty. Whether you have a swing gate or a sliding  gate, we can help you make it work! Building custom gates is another thing we  take pride in doing. If you don't have an existing gate, we'll be  happy to design, build and install the complete set, including the motor. Since gate motor installation is our specialty, we  also have experience with all  the major brands on the market and we install  private residences and security complex entrances. </p>
+                    
+                </div>
+
+                <div class = "testimonials-item">
+                    <div class = "image">
+                        <img src = "images/garage-removebg-preview.png" alt = "client image">
+                    </div>
+                    <h2>Garage Door Motor Installation</h2>
+                    <p class = "text">Garage door installation and automation is one of the key aspects of our business. We are highly skilled in the field and work with all  popular motor brands.
+                        Nowadays, having an automatic garage door is more of a necessity than  a luxury, automatic garage doors provide you with more safety and will also save you time and effort. , which will also increase the resale value of your property. For garage door motor automation, we do the installation for  single and dual motor garage doors.</p>
+                    
+                </div>
+
+                <div class = "testimonials-item">
+                    <div class = "image">
+                        <img src = "images/air-conditioner-removebg-preview.png" alt = "client image">
+                    </div>
+                    <h2>Air Conditioner Installation</h2>
+                    <p class = "text"></i> If it's a hot summer day and you need to install your air conditioner  before  heat stroke sets in, you've come to the right place. You can rest easy knowing that all of Mr. Supply & Distribution's work is  legally compliant. We will send you  a fully licensed installer to complete your AC installation. Once they set up your air conditioner they  clean up and take  all the junk away.</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+     <!-- products section -->
+     <section id = "products" class = "py-5">
+        <div class = "section-heading">
+            <div class = "container">
+                <span class = "heading-lg">Our Products</span>
+                <h4>Products that we use and recomend to our clients</h4>
+               
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class = "products-grid">
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/Centurion-D5Evo-kit.jpg" alt = "client image">
+                    </div>
+                    <h6>Centurion D5 Evo</h6>
+                  
+                    
+                </div>
+
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/GARAGE-DOOR-1.png" alt = "client image">
+                    </div>
+                    <h6>Centurion SD04 Garage Door Motor Kit</h6>
+                </div>
+
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/alpha pro.PNG" alt = "client image">
+                    </div>
+                    <h6>Brano Alpha-Pro 2000</h6>
+                </div>
+
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/hilook 1tb.jpg" alt = "client image">
+                    </div>
+                    <h6>Hikvision 1080p CCTV Kit</h6>
+                </div>
+                
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/hikilook.PNG" alt = "client image">
+                    </div>
+                    <h6>Hilook  1080p ColorVu CCTV Kit</h6>
+                </div>
+                
+                <div class = "products-item">
+                    <div class = "image">
+                        <img src = "images/aircon samsung.png" alt = "client image">
+                    </div>
+                    <h6>Samsung AR3000 Non-Inverter 9000btu Air Conditioner Unit</h6>
+                </div>   
+            </div>
+        </div>
+        
+    </section>
+    <!-- end of products section -->
+
+    
+
+    <main>
+        <!-- features section -->
+        <section id = "features" class = "py-5">
+            <div class = "section-heading">
+                <div class = "container">
+                    <span class = "heading-lg">Why Choose us?</span>
+                </div>
+            </div>
+
+            <div class = "container">
+                <div class = "features-grid">
+                    <div class = "feature-item">
+                        <span class = "icon" style="color: #fff;">
+                            <i class = "fas fa-money-bill-alt"></i>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </span>
+                        <h2>AFFORDABLE SERVICES</h2>
+                        
+                        <p>We make sure to beat any price. Show us the offical quote you recieved and we’ll match or beat that price.</p>
+                    </div>
+
+                    <div class = "feature-item">
+                        <span class = "icon"  style="color: #fff;">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="far fa-handshake"></i>
+                            
+                          
+                        </span>
+                        <h2>FRIENDLY RELIABLE SERVICE</h2>
+                        <p>
+                            We make sure to serve you with a smile and give the best service we can.</p>
+                    </div>
+
+                    <div class = "feature-item" >
+                        <span class = "icon">
+                            <i class="fa fa-check-circle" style="color:#fff;"></i>
+                            <i class="fas fa-toolbox" style="color: #fff;"></i>
+
+                        </span>
+                        <h2>Quality Guanteed</h2>
+                        <p>We make sure that we offer you quality service and quality products at a reasonable price</p>
+                    </div>
+
+                    <div class = "feature-item">
+                        <span class = "icon" style="color: #fff;">
+                            <i class='far fa-calendar-alt'></i>
+                        </span>
+                        <h2>MODERN</h2>
+                        <p>We keep up to date with technological developments, ensuring our customers are not left behind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of features section -->
+
+       
+
+        <!-- pricing section -->
+        <section id = "pricing" class = "py-5">
+            <div class = "section-heading">
+                <div class = "container">
+                    <span class = "heading-lg">Pricing</span>
+                    <p class = "text"><strong> We don't have a fixed pricing structure because all our projects are custom made and based on client's personal requirements. Feel free to share your requirements so that we can be able to give you a qoutation. We have two payments methods,cash option and rental option </strong></p>
+                </div>
+            </div>
+           </span>
+            <div class = "container">
+                <div class = "pricing-grid">
+                    <div class = "pricing-item">
+                        <div class = "price">
+                            <p><span>Cash Option</span></p>
+                        </div>
+                        
+                        <h3>Client pay 50% of the total Balance after accepting the Quotation, then after installation she/he pays the remaining amount</h3>
+                        <br>
+                        <a href = "#" class = "btn">Get Quotation <i class = "fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class = "pricing-item">
+                        <div class = "price">
+                            <p><span>Rental Option</span></p>
+                        </div>
+                        <h3>Contract process. The client after accepting the Quotation, she/he will pay 35% of the total amount. Then after the client will receive the contract to sign. The remaining amount she/he will pay in 3 months period</h3>
+                        <br>
+                        <a href = "#" class = "btn">Get Quotation <i class = "fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of pricing section -->
+
+        <!-- contact -->
+        <section id = "contact" class = "py-5">
+            <div class = "bg-block"></div>
+            <div class = "container">
+                <div class = "contact-wrapper">
+                    <div class = "contact-info">
+                        <h1 style="color: #daa520;">Contact Us</h1>
+                        <div class = "info-group">
+                            <span class = "icon">
+                                <i class = "fas fa-phone-alt"></i>
+                            </span>
+                            <span class = "text"> 0676030534</span>
+                        </div>
+                        <div class = "info-group">
+                            <span class = "icon">
+                                <i class = "fas fa-envelope"></i>
+                            </span>
+                            <span class = "text"> info@mrsupplyanddistribution.co.za | mganganaa@gmail.com </span>
+                        </div>
+                        <br>
+                            <h4>Eastern Cape Office</h4>
+                        <div class = "info-group">
+                            <span class = "icon">
+                                <i class = "fas fa-map-marker-alt"></i>
+                            </span>
+                            <span class = "text">PO Box 17 <br> Herschel <br>
+                                Sterkspruit <br> Eastern Cape <br> 9756 <br><br></span>
+                        </div>
+                            <h4>Freestate Office</h4>
+                        <div class = "info-group">
+                            <span class = "icon">
+                                <i class = "fas fa-map-marker-alt"></i>
+                            </span>
+                            <span class = "text">8423 Phase 3 <br> Bloemside <br> Heidedal <br>Bloemfontein <br> Freestate <br> 9306</span>
+                        </div>
+                        <ul class = "social-links flex">
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class = "contact-form">
+                        
+                          
+                         
+                        <form method = "" action = "">
+                            <div class = "input-group">
+                                <input type = "text" class = "form-control" placeholder="Enter your name ...">
+                            </div>
+                            <div class = "input-group">
+                                <input type = "email" class = "form-control" placeholder="Enter your email address ...">
+                            </div>
+                            <div class = "input-group">
+                                <textarea class = "form-control" rows = "10" placeholder="Enter your message ..."></textarea>
+                            </div>
+                            <div class = "input-group">
+                                <button type = "submit" class = "btn">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact -->
+    </main>
+
+    <footer class = "footer">
+        <div class = "container">
+          
+            <p class = "text copyright-text">&copy; Copyright 2022 <span>Mr Supply and Distribution.</span>  All Rights Reserved.</p>
+            <p class = "text copyright-text">Website designed by <a href="https://ikhwezimedia.co.za/">iKhwezi Media</a></p>
+        </div>
+    </footer>
+
+
+
+    <!-- custom js -->
+    <script src = "script.js"></script>
+</body>
+</html>
